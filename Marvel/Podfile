@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+target 'Marvel' do
+    use_frameworks!
+    pod 'Alamofire'
+    pod 'SwiftHash'
+    pod 'SwiftyJSON'
+    pod 'Kingfisher'
+end
+target 'MarvelTests' do
+    use_frameworks!
+    pod 'Alamofire'
+    pod 'SwiftHash'
+    pod 'SwiftyJSON'
+    pod 'OHHTTPStubs/Swift'
+end
+
